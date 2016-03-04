@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D65E5B01DF1BFC663A1413E9 /* libPods-LHTabBarBadge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CA347F1967B1563F049D0A /* libPods-LHTabBarBadge.a */; };
+		EF4E948F1C893EF40062355F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948E1C893EF40062355F /* main.m */; };
+		EF4E94921C893EF40062355F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94911C893EF40062355F /* AppDelegate.m */; };
+		EF4E94951C893EF40062355F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94941C893EF40062355F /* FirstViewController.m */; };
+		EF4E94981C893EF40062355F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94971C893EF40062355F /* SecondViewController.m */; };
+		EF4E949B1C893EF40062355F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4E94991C893EF40062355F /* Main.storyboard */; };
+		EF4E949D1C893EF40062355F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4E949C1C893EF40062355F /* Assets.xcassets */; };
+		EF4E94A01C893EF40062355F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4E949E1C893EF40062355F /* LaunchScreen.storyboard */; };
+		EF4E94B71C8941090062355F /* PPDragDropBadgeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF4E94AE1C8941090062355F /* PPDragDropBadgeView.bundle */; };
+		EF4E94B81C8941090062355F /* PPDragDropBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94B01C8941090062355F /* PPDragDropBadgeView.m */; };
+		EF4E94B91C8941090062355F /* PRTween.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94B31C8941090062355F /* PRTween.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF4E94BA1C8941090062355F /* PRTweenTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94B51C8941090062355F /* PRTweenTimingFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF4E94BE1C89415C0062355F /* UIViewController+LHTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94BD1C89415C0062355F /* UIViewController+LHTabBarBadge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B65E570E3DE78F6C6444BB9 /* Pods-LHTabBarBadge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHTabBarBadge.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHTabBarBadge/Pods-LHTabBarBadge.release.xcconfig"; sourceTree = "<group>"; };
+		5998186778F3EB3417DEBA7F /* Pods-LHTabBarBadge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHTabBarBadge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LHTabBarBadge/Pods-LHTabBarBadge.debug.xcconfig"; sourceTree = "<group>"; };
+		C7CA347F1967B1563F049D0A /* libPods-LHTabBarBadge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LHTabBarBadge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4E948A1C893EF40062355F /* LHTabBarBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHTabBarBadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4E948E1C893EF40062355F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4E94901C893EF40062355F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF4E94911C893EF40062355F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF4E94931C893EF40062355F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EF4E94941C893EF40062355F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EF4E94961C893EF40062355F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EF4E94971C893EF40062355F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EF4E949A1C893EF40062355F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF4E949C1C893EF40062355F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4E949F1C893EF40062355F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4E94A11C893EF40062355F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4E94AE1C8941090062355F /* PPDragDropBadgeView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PPDragDropBadgeView.bundle; sourceTree = "<group>"; };
+		EF4E94AF1C8941090062355F /* PPDragDropBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDragDropBadgeView.h; sourceTree = "<group>"; };
+		EF4E94B01C8941090062355F /* PPDragDropBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDragDropBadgeView.m; sourceTree = "<group>"; };
+		EF4E94B21C8941090062355F /* PRTween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRTween.h; sourceTree = "<group>"; };
+		EF4E94B31C8941090062355F /* PRTween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTween.m; sourceTree = "<group>"; };
+		EF4E94B41C8941090062355F /* PRTweenTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRTweenTimingFunctions.h; sourceTree = "<group>"; };
+		EF4E94B51C8941090062355F /* PRTweenTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTweenTimingFunctions.m; sourceTree = "<group>"; };
+		EF4E94BC1C89415C0062355F /* UIViewController+LHTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LHTabBarBadge.h"; sourceTree = "<group>"; };
+		EF4E94BD1C89415C0062355F /* UIViewController+LHTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LHTabBarBadge.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4E94871C893EF40062355F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65E5B01DF1BFC663A1413E9 /* libPods-LHTabBarBadge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710F5686465F0ECA89A509F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7CA347F1967B1563F049D0A /* libPods-LHTabBarBadge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1A21C950590541F2D69F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5998186778F3EB3417DEBA7F /* Pods-LHTabBarBadge.debug.xcconfig */,
+				4B65E570E3DE78F6C6444BB9 /* Pods-LHTabBarBadge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF4E94811C893EF40062355F = {
+			isa = PBXGroup;
+			children = (
+				EF4E948C1C893EF40062355F /* LHTabBarBadge */,
+				EF4E948B1C893EF40062355F /* Products */,
+				CA1A21C950590541F2D69F04 /* Pods */,
+				710F5686465F0ECA89A509F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4E948B1C893EF40062355F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E948A1C893EF40062355F /* LHTabBarBadge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4E948C1C893EF40062355F /* LHTabBarBadge */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E94BB1C89415C0062355F /* UIViewController+LHTabBarBadge */,
+				EF4E94AB1C8941090062355F /* PPDragDropBadgeView */,
+				EF4E94901C893EF40062355F /* AppDelegate.h */,
+				EF4E94911C893EF40062355F /* AppDelegate.m */,
+				EF4E94931C893EF40062355F /* FirstViewController.h */,
+				EF4E94941C893EF40062355F /* FirstViewController.m */,
+				EF4E94961C893EF40062355F /* SecondViewController.h */,
+				EF4E94971C893EF40062355F /* SecondViewController.m */,
+				EF4E94991C893EF40062355F /* Main.storyboard */,
+				EF4E949C1C893EF40062355F /* Assets.xcassets */,
+				EF4E949E1C893EF40062355F /* LaunchScreen.storyboard */,
+				EF4E94A11C893EF40062355F /* Info.plist */,
+				EF4E948D1C893EF40062355F /* Supporting Files */,
+			);
+			path = LHTabBarBadge;
+			sourceTree = "<group>";
+		};
+		EF4E948D1C893EF40062355F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E948E1C893EF40062355F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4E94AB1C8941090062355F /* PPDragDropBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E94AE1C8941090062355F /* PPDragDropBadgeView.bundle */,
+				EF4E94AF1C8941090062355F /* PPDragDropBadgeView.h */,
+				EF4E94B01C8941090062355F /* PPDragDropBadgeView.m */,
+				EF4E94B11C8941090062355F /* PRTween */,
+			);
+			path = PPDragDropBadgeView;
+			sourceTree = "<group>";
+		};
+		EF4E94B11C8941090062355F /* PRTween */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E94B21C8941090062355F /* PRTween.h */,
+				EF4E94B31C8941090062355F /* PRTween.m */,
+				EF4E94B41C8941090062355F /* PRTweenTimingFunctions.h */,
+				EF4E94B51C8941090062355F /* PRTweenTimingFunctions.m */,
+			);
+			path = PRTween;
+			sourceTree = "<group>";
+		};
+		EF4E94BB1C89415C0062355F /* UIViewController+LHTabBarBadge */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E94BC1C89415C0062355F /* UIViewController+LHTabBarBadge.h */,
+				EF4E94BD1C89415C0062355F /* UIViewController+LHTabBarBadge.m */,
+			);
+			path = "UIViewController+LHTabBarBadge";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4E94891C893EF40062355F /* LHTabBarBadge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4E94A41C893EF40062355F /* Build configuration list for PBXNativeTarget "LHTabBarBadge" */;
+			buildPhases = (
+				849AE9779335DC8C29819FD1 /* Check Pods Manifest.lock */,
+				EF4E94861C893EF40062355F /* Sources */,
+				EF4E94871C893EF40062355F /* Frameworks */,
+				EF4E94881C893EF40062355F /* Resources */,
+				450EDC07F1F309A492110241 /* Embed Pods Frameworks */,
+				63B19057021C07600B5045D9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHTabBarBadge;
+			productName = LHTabBarBadge;
+			productReference = EF4E948A1C893EF40062355F /* LHTabBarBadge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4E94821C893EF40062355F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mluhui;
+				TargetAttributes = {
+					EF4E94891C893EF40062355F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EF4E94851C893EF40062355F /* Build configuration list for PBXProject "LHTabBarBadge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4E94811C893EF40062355F;
+			productRefGroup = EF4E948B1C893EF40062355F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4E94891C893EF40062355F /* LHTabBarBadge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4E94881C893EF40062355F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4E94A01C893EF40062355F /* LaunchScreen.storyboard in Resources */,
+				EF4E949D1C893EF40062355F /* Assets.xcassets in Resources */,
+				EF4E949B1C893EF40062355F /* Main.storyboard in Resources */,
+				EF4E94B71C8941090062355F /* PPDragDropBadgeView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		450EDC07F1F309A492110241 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHTabBarBadge/Pods-LHTabBarBadge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B19057021C07600B5045D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHTabBarBadge/Pods-LHTabBarBadge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849AE9779335DC8C29819FD1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4E94861C893EF40062355F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4E94B81C8941090062355F /* PPDragDropBadgeView.m in Sources */,
+				EF4E94B91C8941090062355F /* PRTween.m in Sources */,
+				EF4E94BE1C89415C0062355F /* UIViewController+LHTabBarBadge.m in Sources */,
+				EF4E94BA1C8941090062355F /* PRTweenTimingFunctions.m in Sources */,
+				EF4E94981C893EF40062355F /* SecondViewController.m in Sources */,
+				EF4E94921C893EF40062355F /* AppDelegate.m in Sources */,
+				EF4E94951C893EF40062355F /* FirstViewController.m in Sources */,
+				EF4E948F1C893EF40062355F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF4E94991C893EF40062355F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4E949A1C893EF40062355F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4E949E1C893EF40062355F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4E949F1C893EF40062355F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4E94A21C893EF40062355F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4E94A31C893EF40062355F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4E94A51C893EF40062355F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5998186778F3EB3417DEBA7F /* Pods-LHTabBarBadge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHTabBarBadge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mluhui.LHTabBarBadge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4E94A61C893EF40062355F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B65E570E3DE78F6C6444BB9 /* Pods-LHTabBarBadge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHTabBarBadge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mluhui.LHTabBarBadge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4E94851C893EF40062355F /* Build configuration list for PBXProject "LHTabBarBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4E94A21C893EF40062355F /* Debug */,
+				EF4E94A31C893EF40062355F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4E94A41C893EF40062355F /* Build configuration list for PBXNativeTarget "LHTabBarBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4E94A51C893EF40062355F /* Debug */,
+				EF4E94A61C893EF40062355F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4E94821C893EF40062355F /* Project object */;
+}
