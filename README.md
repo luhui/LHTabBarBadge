@@ -35,7 +35,7 @@ see the sample code
 
 #### CocoaPods
 
-* add pod 'UIViewController+LHTabBarBadge' to your podfile
+* add `pod 'UIViewController+LHTabBarBadge'` to your podfile
 * run `pod install` in command line
 
 #### Manual
